@@ -1,5 +1,5 @@
-branch=main
-git clone -b $branch https://github.com/aviskumar/callsmusic /root/callsmusic
+branch=dev
+git clone -b $branch https://github.com/aviskumar/tgvc-userbot /root/callsmusic
 cd /root/callsmusic
 docker build -t musicplayer .
-docker run --env-file .env musicplayer
+docker run  musicplayer
